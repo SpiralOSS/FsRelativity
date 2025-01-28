@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SpiralOSS.FsRelativity", "SpiralOSS.FsRelativity\SpiralOSS.FsRelativity.fsproj", "{C5700CFE-8526-4EEA-85DF-AB17B4D044EF}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SpiralOSS.FsRelativity.Shell", "SpiralOSS.FsRelativity.Shell\SpiralOSS.FsRelativity.Shell.fsproj", "{FF74876D-62FF-4144-8334-04757C8CDD4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectFiles", "ProjectFiles", "{F5719B39-2F09-47BD-92A8-78913724C4DC}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+		..\LICENSE = ..\LICENSE
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5700CFE-8526-4EEA-85DF-AB17B4D044EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5700CFE-8526-4EEA-85DF-AB17B4D044EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5700CFE-8526-4EEA-85DF-AB17B4D044EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5700CFE-8526-4EEA-85DF-AB17B4D044EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF74876D-62FF-4144-8334-04757C8CDD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF74876D-62FF-4144-8334-04757C8CDD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF74876D-62FF-4144-8334-04757C8CDD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF74876D-62FF-4144-8334-04757C8CDD4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

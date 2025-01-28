@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Constants.fs"/>
+        <Compile Include="Loadfile.fs"/>
+        <Compile Include="RelativityInstance.fs" />
+        <Compile Include="Export\SourceSettings.fs"/>
+        <Compile Include="Export\LoadfileSettings.fs"/>
+        <Compile Include="Export\FolderingSettings.fs"/>
+        <Compile Include="Export\ExportSettings.fs"/>
+        <Compile Include="Export\ExportRelativityServices.fs"/>
+        <Compile Include="Rest\Functions.fs"/>
+        <Compile Include="Builders.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Relativity.Export.SDK" Version="3.3.1"/>
+        <PackageReference Include="Relativity.Kepler.Client.SDK" Version="2.21.0"/>
+        <PackageReference Include="Relativity.ObjectManager.SDK" Version="1.1.0"/>
+        <PackageReference Include="Relativity.Transfer.SDK" Version="1.23.0"/>
+        <PackageReference Include="System.Runtime.Caching" Version="7.0.0"/>
+    </ItemGroup>
+</Project>
